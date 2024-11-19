@@ -1,0 +1,37 @@
+[
+    {
+        "id": "central-america",
+        "name": "Central America",
+        "poem": "Oh, sea of endless dreams, Where golden shores meet azure gleams. Your waves whisper stories untold, Of ancient mariners brave and bold."
+    },
+    {
+        "id": "south-america",
+        "name": "South America",
+        "poem": "Beneath the Southern Cross you lay, A canvas blue in the Amazon's spray. From Andes high, your waters flow, Into a rhythm the world must know."
+    },
+    {
+        "id": "scandinavia",
+        "name": "Scandinavia",
+        "poem": "Cold fjords meet the icy sea, A Nordic tale of eternity. Through Viking hearts, your tides still sing, A bond unbroken, like the spring."
+    },
+    {
+        "id": "southern-europe",
+        "name": "Southern Europe",
+        "poem": "Mediterranean blue and bright, A cradle of history, bathed in light. Your shores have borne the ancient's call, A sea that unites, inspiring all."
+    },
+    {
+        "id": "india",
+        "name": "India",
+        "poem": "Oh, monsoon sea with dancing waves, Stories of spice and trade you gave. In your embrace, the sun dips low, A timeless bond we’ll always know."
+    },
+    {
+        "id": "oceania",
+        "name": "Oceania",
+        "poem": "Isles of wonder in your domain, A paradise kissed by the rain. Coral reefs and tides that swell, Your beauty is a magic spell."
+    },
+    {
+        "id": "japan",
+        "name": "Japan",
+        "poem": "The sea of Japan, both fierce and kind, A mirror of the samurai’s mind. Its tides reflect the moon’s soft glow, An eternal dance, ebb and flow."
+    }
+]

@@ -1,0 +1,151 @@
+/* General styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    width: 1440px;
+    height: 1024px;
+}
+
+.ocean {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+/* Ocean video background */
+.ocean video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    z-index: 1;
+}
+
+/* World map overlay */
+.world-map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: url('resources/worldMap.png') center center/contain no-repeat;
+}
+
+/* Markers */
+.marker {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 3;
+    transition: transform 0.2s;
+    background-image: url('resources/waterSymbol.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.marker:hover {
+    transform: scale(1.2);
+}
+
+/* Individual marker positions */
+#central-america {
+    top: 50%;
+    left: 40%;
+}
+
+#south-america {
+    top: 70%;
+    left: 42%;
+}
+
+#scandinavia {
+    top: 20%;
+    left: 50%;
+}
+
+#southern-europe {
+    top: 60%;
+    left: 55%;
+}
+
+#india {
+    top: 600px;
+    left: 1100px;
+}
+
+#oceania {
+    top: 850px;
+    left: 1160px;
+}
+
+#japan {
+    top: 550px;
+    left: 1250px;
+}
+
+/* Popup overlay (dim background) */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 1024px;
+    background-color: rgba(0, 0, 0, 0.7); /* Dim the background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100; /* Ensure it appears above everything */
+}
+
+/* Popup container */
+.popup {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 800px;
+    height: 800px;
+    transform: scale(0); /* Start with 0 size */
+    transition: transform 0.3s ease-in-out; /* Smooth grow animation */
+    opacity: 0;
+}
+
+.popup p {
+    white-space: normal; /* Ensure text wraps naturally */
+    line-height: 1.6;    /* Enhance readability */
+    text-align: left;    /* Align text for readability */
+}
+
+/* Show popup animation */
+.popup.show {
+    transform: scale(1); /* Grow to full size */
+    opacity: 1;
+}
+
+/* Close button */
+.popup .close-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff4d4d;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.popup .close-btn:hover {
+    background-color: #ff1a1a;
+}
+
