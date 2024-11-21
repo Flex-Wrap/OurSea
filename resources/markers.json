@@ -1,37 +1,90 @@
 [
     {
-        "id": "central-america",
-        "name": "Central America",
-        "poem": "Oh, sea of endless dreams, Where golden shores meet azure gleams. Your waves whisper stories untold, Of ancient mariners brave and bold."
+        "id": "italy",
+        "poem": "Today, like then, I become still before you, oh sea, but I no longer believe myself worthy of the solemn warning in your breath.",
+        "author": "Eugenio Montale",
+        "images": [
+            "venus.jpg",
+            "tempesta.jpg",
+            "nittis.jpeg"
+        ],
+        "sea_or_ocean": "Mare"
     },
     {
-        "id": "south-america",
-        "name": "South America",
-        "poem": "Beneath the Southern Cross you lay, A canvas blue in the Amazon's spray. From Andes high, your waters flow, Into a rhythm the world must know."
+        "id": "china",
+        "poem": "I come to see the boundless ocean From Stony Hill on eastern shore Water rolls in rhythmic motion, Islands stand amid its roar.",
+        "author": "Caocao",
+        "images": [
+            "china-big.jpeg",
+            "china1.jpeg",
+            "ma-yuan1.jpeg"
+        ],
+        "sea_or_ocean": "海洋 (hǎiyáng)"
     },
     {
-        "id": "scandinavia",
-        "name": "Scandinavia",
-        "poem": "Cold fjords meet the icy sea, A Nordic tale of eternity. Through Viking hearts, your tides still sing, A bond unbroken, like the spring."
+        "id": "usa",
+        "poem": "The tide rises, the tide falls, The twilight darkens, the curlew calls; Along the sea-sands damp and brown The traveller hastens toward the town, And the tide rises, the tide falls.",
+        "author": "Henry Wadsworth Longfellow",
+        "images": [
+            "duck-island.jpg",
+            "usa-wave.jpg",
+            "gulf-stream.jpg"
+        ],
+        "sea_or_ocean": "The sea"
     },
     {
-        "id": "southern-europe",
-        "name": "Southern Europe",
-        "poem": "Mediterranean blue and bright, A cradle of history, bathed in light. Your shores have borne the ancient's call, A sea that unites, inspiring all."
+        "id": "russia",
+        "poem": "The sea — in a peace, long and lethal — The movement — as if vaporized. The sea — as if, made from cast metal, A mirror of purified skies.",
+        "author": "Valery Bryusov",
+        "images": [
+            "repin.jpeg",
+            "russia1.jpeg",
+            "russia2.jpeg"
+        ],
+        "sea_or_ocean": "Море (more)"
     },
     {
-        "id": "india",
-        "name": "India",
-        "poem": "Oh, monsoon sea with dancing waves, Stories of spice and trade you gave. In your embrace, the sun dips low, A timeless bond we’ll always know."
+        "id": "france",
+        "poem": "Free man, you'll always love the sea — for this, That it's a mirror, where you see your soul In its eternal waves that chafe and roll; Nor is your soul less bitter an abyss.",
+        "author": "Charles Baudelaire",
+        "images": [
+            "monet.jpg",
+            "courbet.jpeg",
+            "renoire.jpg"
+        ],
+        "sea_or_ocean": "La mer"
     },
     {
-        "id": "oceania",
-        "name": "Oceania",
-        "poem": "Isles of wonder in your domain, A paradise kissed by the rain. Coral reefs and tides that swell, Your beauty is a magic spell."
+        "id": "iran",
+        "poem": "You are not a drop in the ocean; You are the entire ocean in a drop.",
+        "author": "Rumi",
+        "images": [
+            "iran1.jpeg",
+            "iran2.jpeg",
+            "iran3.jpeg"
+        ],
+        "sea_or_ocean": "دریا (Daryā)"
+    },
+    {
+        "id": "spain",
+        "poem": "If my voice dies on land, Carry it down to the sea, And leave it there on the shore.",
+        "author": "Rafael Alberti",
+        "images": [
+            "window-girl.avif",
+            "seascape.jpg",
+            "picasso.jpeg"
+        ],
+        "sea_or_ocean": "El mar"
     },
     {
         "id": "japan",
-        "name": "Japan",
-        "poem": "The sea of Japan, both fierce and kind, A mirror of the samurai’s mind. Its tides reflect the moon’s soft glow, An eternal dance, ebb and flow."
-    }
+        "poem": "The sea darkens — The voices of the wild ducks Are faintly white.",
+        "author": "Matsuo Bashō",
+        "images": [
+            "hokusai-wave.jpg",
+            "japan-coastline.jpeg",
+            "seaside-temple.jpg"
+        ],
+        "sea_or_ocean": "海 (Umi)"
+    }    
 ]

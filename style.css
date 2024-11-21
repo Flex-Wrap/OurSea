@@ -7,8 +7,8 @@
 
 body {
     overflow: hidden;
-    width: 1440px;
-    height: 1024px;
+    width: 100vw;
+    height: 100vh;
 }
 
 .ocean {
@@ -59,39 +59,44 @@ body {
 }
 
 /* Individual marker positions */
-#central-america {
+#italy {
     top: 50%;
-    left: 40%;
-}
-
-#south-america {
-    top: 70%;
-    left: 42%;
-}
-
-#scandinavia {
-    top: 20%;
     left: 50%;
 }
 
-#southern-europe {
-    top: 60%;
-    left: 55%;
+#china {
+    top: 49%;
+    left: 72%;
 }
 
-#india {
-    top: 600px;
-    left: 1100px;
+#usa {
+    top: 52%;
+    left: 27%;
 }
 
-#oceania {
-    top: 850px;
-    left: 1160px;
+#russia {
+    top: 30%;
+    left: 75%;
+}
+
+#france {
+    top: 45%;
+    left: 49%;
+}
+
+#iran {
+    top: 55%;
+    left:60%;
+}
+
+#spain {
+    top: 51%;
+    left: 45%;
 }
 
 #japan {
-    top: 550px;
-    left: 1250px;
+    top: 50%;
+    left: 80%;
 }
 
 /* Popup overlay (dim background) */
@@ -99,8 +104,8 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 1440px;
-    height: 1024px;
+    width: 100vw;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.7); /* Dim the background */
     display: flex;
     justify-content: center;
@@ -110,11 +115,13 @@ body {
 
 /* Popup container */
 .popup {
-    background: white;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 109, 160, 0.5);
     border-radius: 10px;
-    padding: 20px;
-    width: 800px;
-    height: 800px;
+    padding: 40px;
+    width: 70%;
+    height: 80%;
     transform: scale(0); /* Start with 0 size */
     transition: transform 0.3s ease-in-out; /* Smooth grow animation */
     opacity: 0;
@@ -134,7 +141,6 @@ body {
 
 /* Close button */
 .popup .close-btn {
-    margin-top: 20px;
     padding: 10px 20px;
     border: none;
     background-color: #ff4d4d;
@@ -143,9 +149,59 @@ body {
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s;
+    align-self: center;
+    margin-top: auto;
 }
 
 .popup .close-btn:hover {
     background-color: #ff1a1a;
 }
 
+
+.country-name {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin: 0;
+}
+
+.sea-name {
+    font-size: 1.5rem;
+    color: #a8d3eb;
+    margin-top: 5px;
+}
+
+.poem-container {
+    font-size: 1.2rem;
+    color: #98d3d3;
+    width: 50%;
+    align-self: center;
+}
+
+.poem-text {
+    line-height: 1.6;
+}
+
+.poem-author {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.image-carousel {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.carousel-image {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-image:hover {
+    transform: scale(1.1);
+}
